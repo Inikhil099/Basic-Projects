@@ -1,0 +1,45 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+#show{
+    height: 5vh;
+    width: 35%;
+    display: inline-block;
+    color: white;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    border-radius: 3rem;
+    background-color: orange;
+    
+}
+
+.start{
+    height: 10vh;
+    width: 25%;
+    display: inline-block;
+    color: black;
+    margin-top: 4%;
+    border-radius: 1.3rem;
+    background-color: aqua;
+}
+
+.reset{
+    height: 10vh;
+    width: 25%;
+    display: inline-block;
+    color: black;
+    margin-top: 4%;
+    border-radius: 1.3rem;
+    background-color: red;
+}
